@@ -134,7 +134,7 @@ h1{
     flex-direction: column-reverse;
   }
   ul li{
-    font-size: 2rem;  
+    font-size: 1rem;  
   }
   nav{
     align-items: flex-end;
