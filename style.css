@@ -90,6 +90,41 @@ h1{
 
 
 
+.intro{
+    text-align: center;
+    padding: 3rem 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* card conaitlner */
+
+.card{
+    width: 100%;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    padding-bottom: 1rem;
+}
+.card p{
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+.card button{
+    border: none;
+    background-color: #E95A08;
+    width: 100%;
+    padding: 1rem;
+    color: white;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
+
+
 
 
 
@@ -107,5 +142,11 @@ h1{
 
   ul li:nth-child(-n+3){
    display: none;
+  }
+
+  .card-container{
+    grid-template-columns: repeat(2,1fr);
+   
+    
   }
 }
