@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* shared styles */
+
+.navbar-gray{
+    color: #8987A1;
+}
+.navbar-black{
+    color: #252432;
+}
+.subtitle-color{
+    color: var(--gary1);
+    opacity: 50%;
+}
+
+.title-blck{
+    color: #000000;
+}
+.title-red{
+    color: #E95A08;
+}
+.card-black{
+    color: #111111;
+}
+.flex{
+    display: flex;
+}
+
+/* navbar */
+
+nav{
+    max-width: 1440px;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    font-family: sans-serif;
+}
+ul{
+     gap: 2rem;
+}
+
+ul li {
+    list-style: none;
+   
+}
+
+
+
+
+
