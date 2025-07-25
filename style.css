@@ -3,7 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 
 
@@ -37,8 +56,9 @@
 
 nav{
     max-width: 1440px;
+    margin: 0 auto;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 1rem;
     align-items: center;
     font-family: sans-serif;
 }
@@ -51,7 +71,41 @@ ul li {
    
 }
 
+/* hero */
+.hero div{
+
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 0;
+   
+}
+.hero p{
+   font: 2rem;
+   
+}
+h1{
+    font-size: 4rem;
+}
 
 
 
 
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .hero{
+    flex-direction: column-reverse;
+  }
+  ul li{
+    font-size: 2rem;  
+  }
+  nav{
+    align-items: flex-end;
+  }
+
+  ul li:nth-child(-n+3){
+   display: none;
+  }
+}
