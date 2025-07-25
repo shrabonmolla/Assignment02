@@ -7,6 +7,7 @@ main {
   max-width: 1440px;
   margin: 0 auto;
   padding: 1rem;
+  overflow-x: hidden;
 }
 .inter {
   font-family: "Inter", sans-serif;
@@ -231,26 +232,28 @@ h1 {
 
 .join{
   background-image: url("./assets/news-letter-bg.png");
-  width: 100%;
-  padding: 8rem ;
+  
+ padding: 4rem;
   margin: 3rem 0;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   display: grid;
     justify-content: center;
   align-items: center;
-
+  margin-inline: calc(50% - 50vw);
 }
 
 .join div{
   color: white;
+  text-align: center;
 }
 .join div P{
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 .join div div input[type="search"]{
   padding: 1rem ;
+  
   
 }
 label{
@@ -278,7 +281,7 @@ footer ul{
     flex-direction: column-reverse;
   }
   ul li {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   nav {
     align-items: flex-end;
