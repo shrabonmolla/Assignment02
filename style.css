@@ -124,9 +124,54 @@ h1{
     gap: 2rem;
 }
 
+/* truster-plant */
+.promo-section {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  background-color: #f5f7fb;
+  margin-top: 8rem;
+  
+}
 
+.image-wrapper {
+  position: relative;
+  flex: 1;
+}
 
+.image-wrapper img:first-child {
+  width: 100%;
+  border-radius: 8px;
+}
 
+.badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 50%;
+  transform: translate(50%, -50%);
+  z-index: 1;
+}
+
+.content .heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.feature-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.feature-list li {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  max-width: 500px;
+}
 
 
 @media only screen and (max-width: 600px) {
